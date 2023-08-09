@@ -19,7 +19,7 @@ def sandboxCheck():
     (Most of these ratings are guesses)
 
     Process check: FN: REALLY-LOW / FP: HIGH
-        Most processes don't usually have programs like Chrome or Discord running.
+        Most sandboxes don't usually have programs like Chrome or Discord running.
         This means that if we check if those processes are running,
         we can guess if it's a sandbox.
         You can add custom processes via the function config
